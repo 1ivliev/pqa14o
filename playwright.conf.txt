@@ -1,0 +1,17 @@
+# Правки конфига
+  reporter: [
+    ['html'],
+    ['allure-playwright', {
+      outputFiles: 'allure-results'
+    }]],
+
+
+# Правки конфига
+  reporter: [
+    ['html'],
+    ['allure-playwright', {
+      outputFiles: 'allure-results'
+    }],
+    ['playtheus']],
+
+
